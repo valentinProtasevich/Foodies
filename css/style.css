@@ -1,12 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+ 
 
 body {
-  font-family: 'Poppins';font-size: 22px;
+  font-family: 'Poppins';
+  font-size: 22px;
   background-color: #E5E5E5;
+}
+
+.nav {
+  width: 260px;
+}
+
+.nav__top-block {
+  display: flex;
 }
 
 .logo {
   position: relative;
+  margin-left: 29px;
 }
 
 .logo__rectangle{
@@ -20,4 +32,26 @@ body {
   height: 19.78px;
   top: 6.89px;
   left: 10px;
+}
+
+.company-name {
+  margin-top: 10px;
+  margin-left: 12px;
+
+  font-family: 'Risque';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #111111;
+}
+
+.company-name p {
+  margin: 0;
+}
+
+.hamburger-menu {
+  margin-top: 11px;
+  margin-left: 59px;
 }
