@@ -8,6 +8,8 @@ body {
   background-color: #E5E5E5;
 }
 
+/* ?nav */
+
 .nav {
   width: 260px;
 }
@@ -54,4 +56,54 @@ body {
 .hamburger-menu {
   margin-top: 11px;
   margin-left: 59px;
+}
+
+.nav__main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  margin-top: 65px;
+  margin-left: 31px;
+
+  height: 496px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #7A7A7A;
+}
+
+.nav__main-block div {
+  display: flex;
+} 
+
+.nav__main-block a {
+  margin-left: 30px;
+
+  text-decoration: none;
+  color: #7A7A7A;
+}
+
+.menu-button {
+  margin-left: 3px;
+}
+
+.menu-button a {
+  margin-right: 80px;
+}
+
+.customer-button a {
+  margin-right: 41px;
+}
+
+.analytics-button {
+  margin-left: 2px;
+}
+
+.analytics-button a {
+  margin-left: 33px;
 }
