@@ -1,21 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
  
-
 body {
+  display: grid;
+  grid-template-areas:
+    'nav header header'
+    'nav orderID status'
+    'nav customer items'
+    'nav customer map'
+    'nav orderNotes map';
+  grid-template-rows: 90px 123px 408.5px 1fr 485px;
+  grid-template-columns: 19% 1fr 58%;
+  height: 100vh;
+  margin: 0;
+
   font-family: 'Poppins';
   font-size: 22px;
   background-color: #E5E5E5;
 }
 
+.nav {
+  grid-area: nav;
+}
+
+.header {
+  grid-area: header;
+}
+
+.orderID {
+  grid-area: orderID;
+}
+
+.status {
+  grid-area: status;
+}
+
+.customer {
+  grid-area: customer;
+}
+
+.items {
+  grid-area: items;
+}
+
+.orderNotes {
+  grid-area: orderNotes;
+}
+
+.map {
+  grid-area: map;
+}
+
 /* ?nav */
 
 .nav {
-  width: 260px;
+  display: grid;
+  grid-template-rows: 114px 1fr 180px;
+  grid-template-columns: 1fr;
+
+  background-color: #FFFFFF;
 }
 
 .nav__top-block {
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 75px 72px 1fr;
+
+  margin-top: 40px;
 }
 
 .logo {
@@ -38,7 +89,7 @@ body {
 
 .company-name {
   margin-top: 10px;
-  margin-left: 12px;
+  margin-left: 6px;
 
   font-family: 'Risque';
   font-style: normal;
@@ -55,15 +106,15 @@ body {
 
 .hamburger-menu {
   margin-top: 11px;
-  margin-left: 59px;
+  margin-left: auto;
+  margin-right: 31px;
 }
 
 .nav__main-block {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
   
-  margin-top: 65px;
+  margin-top: 15px;
   margin-left: 31px;
 
   height: 496px;
@@ -79,7 +130,11 @@ body {
 
 .nav__main-block div {
   display: flex;
-} 
+  align-items: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .nav__main-block a {
   margin-left: 30px;
@@ -93,11 +148,11 @@ body {
 }
 
 .menu-button a {
-  margin-right: 80px;
+  margin-right: 79px;
 }
 
 .customer-button a {
-  margin-right: 41px;
+  margin-right: 38px;
 }
 
 .analytics-button {
@@ -106,4 +161,60 @@ body {
 
 .analytics-button a {
   margin-left: 33px;
+}
+
+.addMenus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin-bottom: 30px;
+  margin-left: 33px;
+  
+  width: 200px;
+  height: 150px;
+
+  background: linear-gradient(180deg, #4D64E1 0%, #9956F4 100%);
+  border-radius: 21px;
+}
+
+.addMenus p {
+  margin: 0;
+  margin-top: 32px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+}
+
+.addMenus-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 23px;
+
+  width: 157px;
+  height: 37.27px;
+
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.addMenus-button p {
+  margin: 0;
+  margin-left: 10px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
 }
