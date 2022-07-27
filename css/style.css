@@ -7,8 +7,8 @@ body {
     'nav header header'
     'nav orderDescr status'
     'nav customer items'
-    'nav customer map'
-    'nav orderNotes map';
+    'nav customer delivery'
+    'nav orderNotes delivery';
   grid-template-rows: 90px 123px 408.5px auto 485px;
   grid-template-columns: 19% 1fr 58%;
   
@@ -48,8 +48,8 @@ body {
   grid-area: orderNotes;
 }
 
-.map {
-  grid-area: map;
+.delivery {
+  grid-area: delivery;
 }
 
 /* ?nav */
@@ -831,9 +831,17 @@ body {
   border-radius: 18px;
 }
 
-/* ?map */
+/* ?delivery */
 
-.map {
+.delivery {
+  display: grid;
+  grid-template-areas: 
+    'delivery__mapContainer delivery__mapContainer delivery__mapContainer'
+    'delivery__information ... ...'
+    'delivery__person delivery__phone delivery__time';
+  grid-template-rows: 67% 13% 20%;
+  grid-template-columns: repeat(3, 1fr);
+
   margin-top: 25px;
   margin-bottom: 60px;
   margin-left: 34px;
@@ -841,4 +849,194 @@ body {
   
   background: #FFFFFF;
   border-radius: 18px;
+}
+
+.delivery__mapContainer {
+  grid-area: delivery__mapContainer;
+
+  margin-top: 18px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 18px;
+
+  background: url(../img/delivery/map.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.delivery__information {
+  grid-area: delivery__information;
+  align-self: center;
+
+  margin-left: 30px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+/* delivery__person */
+
+.delivery__person {
+  grid-area: delivery__person;
+
+  display: grid;
+  grid-template-columns: 80px 75%;
+
+  margin-left: 30px;
+}
+
+.delivery__person_imgContainer {
+  position: relative;
+
+  align-self: center;
+}
+
+.delivery__person_icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.delivery__person_textContainer {
+  align-self: center;
+}
+
+.delivery__person_name {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 23px;
+
+  color: #061737;
+}
+
+.delivery__person_rating {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #898EBC;
+}
+
+/* delivery__phone */
+
+.delivery__phone {
+  grid-area: delivery__phone;
+  justify-self: center;
+
+  display: grid;
+  grid-template-columns: 80px 75%;
+
+}
+
+.delivery__phone_imgContainer {
+  position: relative;
+
+  align-self: center;
+}
+
+.delivery__phone_circle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  box-shadow: 0px 10px 30px rgba(78, 96, 255, 0.25);
+}
+
+.delivery__phone_icon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.delivery__phone_textContainer {
+  align-self: center;
+}
+
+.delivery__phone_name {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 23px;
+
+  color: #061737;
+}
+
+.delivery__phone_number {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #898EBC;
+}
+
+/* delivery__time */
+
+.delivery__time {
+  grid-area: delivery__time;
+  justify-self: center;
+
+  display: grid;
+  grid-template-columns: 80px 75%;
+}
+
+.delivery__time_imgContainer {
+  position: relative;
+
+  align-self: center;
+}
+
+.delivery__time_circle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  box-shadow: 0px 10px 30px rgba(78, 96, 255, 0.25);
+}
+
+.delivery__time_icon {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+}
+
+.delivery__time_textContainer {
+  align-self: center;
+}
+
+.delivery__time_name {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 23px;
+
+  color: #061737;
+}
+
+.delivery__time_time {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #898EBC;
 }
