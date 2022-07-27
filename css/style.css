@@ -475,3 +475,134 @@ body {
   text-transform: uppercase;
   color: #000000;
 }
+
+/* ?customer */
+
+.customer {
+  margin-left: 30px;
+
+  display: grid;
+  grid-template-rows: auto 239px;
+  
+  background: #FFFFFF;
+  border-radius: 18px;
+}
+
+.customer__description {
+  display: grid;
+  grid-template-rows: 130px 50px 59px;
+  justify-items: center;
+  align-items: center;
+}
+
+.customer__description img {
+  align-self: end;
+  
+  border-radius: 57.5px
+}
+
+.customer__description p {
+  margin: 0;
+}
+
+.custumer__name {
+  padding-top: 10px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  
+  color: #111111;
+}
+
+.customer__text {
+  padding-top: 5px;
+
+  align-self: start;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #7A7A7A;
+}
+
+.customer__order {
+  display: grid;
+  grid-template-rows: 65% 35%;
+  
+  background: #404A56;
+  border-radius: 18px;
+}
+
+.customer__order-notes {
+  display: grid;
+  padding-top: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  overflow: auto;
+}
+
+.customer__order-notes p {
+  margin: 0;
+
+  font-family: 'Poppins';
+  font-style: normal;
+
+  color: #FFFFFF;
+}
+
+.customer__order-text1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.customer__order-text2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.customer__order-arriving {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  align-items: center;
+  
+  background: #4E60FF;
+  border-radius: 18px;
+}
+
+.customer__carImg {
+  justify-self: center;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+
+  width: 69px;
+  height: 69px;
+
+  border-radius: 34.5px;
+
+  background: #FFFFFF;
+}
+
+.customer__address {
+  justify-self: start;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
