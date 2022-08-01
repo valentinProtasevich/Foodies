@@ -21,6 +21,20 @@ body {
   background-color: #F9F9F9;
 }
 
+@media all and (max-width: 1100px) {
+  body {
+    grid-template-areas: 
+    'header header'
+    'nav customer'
+    'nav orderNotes'
+    'orderDescr status'
+    'foodMenu foodMenu'
+    'delivery delivery';
+    grid-template-rows: 90px 500px 450px 120px 500px 500px;
+    grid-template-columns: 250px 750px;
+  }
+}
+
 .nav {
   grid-area: nav;
 }
