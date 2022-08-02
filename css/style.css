@@ -625,6 +625,10 @@ body {
   border-radius: 18px;
 }
 
+.customer__order-arriving:hover {
+  cursor: pointer;
+}
+
 .customer__carImg {
   justify-self: center;
 
@@ -1326,6 +1330,10 @@ body {
   box-shadow: 0px 10px 30px rgba(78, 96, 255, 0.25);
 }
 
+.delivery__phone_circle:hover {
+  cursor: pointer;
+}
+
 .delivery__phone_icon {
   position: absolute;
   top: 15px;
@@ -1381,6 +1389,10 @@ body {
   height: 50px;
   border-radius: 25px;
   box-shadow: 0px 10px 30px rgba(78, 96, 255, 0.25);
+}
+
+.delivery__time_circle:hover {
+  cursor: pointer;
 }
 
 .delivery__time_icon {
