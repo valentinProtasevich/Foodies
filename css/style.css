@@ -928,12 +928,22 @@ body {
   height: 2px;
 }
 
+.deleteImg:hover {
+  cursor: pointer;
+  position: relative;
+  bottom: 2px;
+}
+
 /* item_1 */
 
 .foodMenu__item_img_1 {
   grid-area: foodMenu__item_img_1;
 
   margin-left: 30px;
+}
+
+.foodMenu__item_img_1:hover {
+  cursor: pointer;
 }
 
 .foodMenu__item_img_1 img {
@@ -945,6 +955,10 @@ body {
   align-self: start;
 
   padding-top: 15px;
+}
+
+.foodMenu__item_descr_container_1:hover {
+  cursor: pointer;
 }
 
 .foodMenu__item_courseType_1 {  
@@ -991,6 +1005,10 @@ body {
   grid-area: foodMenu__qty_1;
 }
 
+.foodMenu__qty_1:hover {
+  cursor: pointer;
+}
+
 .foodMenu__price_1 {
   grid-area: foodMenu__price_1;
 }
@@ -1011,6 +1029,10 @@ body {
   margin-left: 30px;
 }
 
+.foodMenu__item_img_2:hover {
+  cursor: pointer;
+} 
+
 .foodMenu__item_img_2 img {
   display: block;
 }
@@ -1020,6 +1042,10 @@ body {
   align-self: start;
 
   padding-top: 15px;
+}
+
+.foodMenu__item_descr_container_2:hover {
+  cursor: pointer;
 }
 
 .foodMenu__item_courseType_2 {  
@@ -1066,6 +1092,10 @@ body {
   grid-area: foodMenu__qty_2;
 }
 
+.foodMenu__qty_2:hover {
+  cursor: pointer;
+}
+
 .foodMenu__price_2 {
   grid-area: foodMenu__price_2;
 }
@@ -1086,6 +1116,10 @@ body {
   margin-left: 30px;
 }
 
+.foodMenu__item_img_3:hover {
+  cursor: pointer;
+}
+
 .foodMenu__item_img_3 img {
   display: block;
 }
@@ -1095,6 +1129,10 @@ body {
   align-self: start;
 
   padding-top: 15px;
+}
+
+.foodMenu__item_descr_container_3:hover {
+  cursor: pointer;
 }
 
 .foodMenu__item_courseType_3 {  
@@ -1141,6 +1179,10 @@ body {
   grid-area: foodMenu__qty_3;
 }
 
+.foodMenu__qty_3:hover {
+  cursor: pointer;
+}
+
 .foodMenu__price_3 {
   grid-area: foodMenu__price_3;
 }
@@ -1185,6 +1227,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 
 .delivery__information {
   grid-area: delivery__information;
