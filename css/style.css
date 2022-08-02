@@ -1404,3 +1404,99 @@ body {
     border-radius: 0px;
   }
 }
+
+@media (max-width: 767px) {
+  body {
+    box-sizing: border-box;
+    grid-template-areas: 
+    'nav header'
+    'customer customer'
+    'orderNotes orderNotes'
+    'orderDescr orderDescr'
+    'status status'
+    'foodMenu foodMenu'
+    'delivery delivery';
+    grid-template-rows: 220px 500px 400px 120px 80px 700px 800px;
+    grid-template-columns: 30px 95%;
+  }
+
+  .hamburger-menu {
+    margin-top: 30px;
+  }
+
+  .header {
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 1fr;
+  }
+
+  .header form {
+    justify-self: center;
+    padding-left: 30px;
+  }
+
+  .header .hello {
+    justify-self: center;
+    position: static;
+  }
+
+  .orderDescr {
+    justify-self: center;
+  }
+
+  .status {
+    justify-self: center;
+    margin-top: 0;
+  }
+
+  .foodMenu {
+    grid-template-areas:
+      'foodMenu__items foodMenu__price foodMenu__total_price ...'
+      'grey_line grey_line grey_line grey_line'
+      'foodMenu__item_img_1 foodMenu__item_descr_container_1 foodMenu__item_descr_container_1 foodMenu__item_descr_container_1'
+      'foodMenu__qty_1 foodMenu__price_1 foodMenu__total_price_1 foodMenu__delete_1'
+      'foodMenu__item_img_2 foodMenu__item_descr_container_2 foodMenu__item_descr_container_2 foodMenu__item_descr_container_2'
+      'foodMenu__qty_2 foodMenu__price_2 foodMenu__total_price_2 foodMenu__delete_2'
+      'foodMenu__item_img_3 foodMenu__item_descr_container_3 foodMenu__item_descr_container_3 foodMenu__item_descr_container_3'
+      'foodMenu__qty_3 foodMenu__price_3 foodMenu__total_price_3 foodMenu__delete_3';
+      grid-template-rows: 15% 17px repeat(6, 100px);
+      grid-template-columns: 25% 25% 30% 20%;
+      justify-items: center;
+  }
+
+  .foodMenu div {
+    margin: 0;
+    max-width: 200px;
+  }
+
+  .grey_line {
+    min-height: 2px;
+    min-width: 100%;
+  }
+
+  .foodMenu__qty {
+    display: none;
+  }
+
+  .delivery {
+    grid-template-areas: 
+      'delivery__mapContainer'
+      'delivery__information'
+      'delivery__person'
+      'delivery__phone'
+      'delivery__time';
+    grid-template-rows: 45% 10% repeat(3, 15%);
+    grid-template-columns: 1fr;
+  }
+
+  .delivery div {
+    margin: 0;
+  }
+
+  .delivery__phone {
+    justify-self: start;
+  }
+
+  .delivery__time {
+    justify-self: start;
+  }
+}
