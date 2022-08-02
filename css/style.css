@@ -1215,6 +1215,10 @@ body {
   border-radius: 18px;
 }
 
+.delivery img:hover {
+  cursor: pointer;
+}
+
 .delivery__mapContainer {
   grid-area: delivery__mapContainer;
 
@@ -1228,7 +1232,9 @@ body {
   background-size: cover;
 }
 
-
+.delivery__mapContainer:hover {
+  cursor: pointer;
+}
 
 .delivery__information {
   grid-area: delivery__information;
