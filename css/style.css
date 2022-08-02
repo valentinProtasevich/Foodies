@@ -123,9 +123,16 @@ body {
 }
 
 .hamburger-menu {
+  height: 15px;
+
   margin-top: 11px;
   margin-left: auto;
   margin-right: 31px;
+}
+
+.hamburger-menu:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 2px gray;
 }
 
 .nav__main-block {
@@ -134,7 +141,6 @@ body {
   
   height: 496px;
   margin-top: 15px;
-  margin-left: 31px;
   
   font-family: 'Poppins';
   font-style: normal;
@@ -151,6 +157,13 @@ body {
 
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.nav__main-block div:hover {
+  cursor: pointer;
+  box-shadow: inset 7px 0px #6779DF;;
+  background: #F9FAFE;
 }
 
 .nav__main-block a {
@@ -161,7 +174,7 @@ body {
 }
 
 .menu-button {
-  margin-left: 3px;
+  padding-left: 3px;
 }
 
 .bracketImg {
@@ -170,7 +183,7 @@ body {
 }
 
 .analytics-button {
-  margin-left: 2px;
+  padding-left: 2px;
 }
 
 .analytics-button a {
@@ -216,6 +229,15 @@ body {
 
   background: #FFFFFF;
   border-radius: 5px;
+}
+
+.addMenus-button:hover {
+  cursor: pointer;
+  background: #C4C4C4;
+}
+
+.addMenus-button:active {
+  background: #979797;
 }
 
 .addMenus-button p {
