@@ -5,13 +5,14 @@
 body {
   display: grid;
   grid-template-areas:
-    'nav header header'
-    'nav orderDescr status'
-    'nav customer foodMenu'
-    'nav customer delivery'
-    'nav orderNotes delivery';
-  grid-template-rows: 90px 123px 408.5px auto 485px;
-  grid-template-columns: 19% 1fr 58%;
+    'nav ... header header header header'
+    'nav ... orderDescr ... status ...'
+    'nav ... customer ... foodMenu ...'
+    'nav ... customer ... delivery ...'
+    'nav ... orderNotes ... delivery ...'
+    'nav ... ... ... ... ...';
+  grid-template-rows: 90px 123px 408.5px auto 485px 60px;
+  grid-template-columns: 19% 30px 1fr 35px 58% 30px;
   
   height: 100vh;
   margin: 0;
@@ -22,7 +23,7 @@ body {
   background-color: #F9F9F9;
 }
 
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1280px) {
   body {
     grid-template-areas: 
     'header header'
@@ -32,7 +33,7 @@ body {
     'foodMenu foodMenu'
     'delivery delivery';
     grid-template-rows: 90px 500px 450px 120px 500px 500px;
-    grid-template-columns: 250px 750px;
+    grid-template-columns: 30% 70%;
   }
 }
 
@@ -266,8 +267,6 @@ body {
 
   position: relative;
   
-  margin-left: 30px;
-
   background: #FFFFFF;
 }
 
@@ -424,8 +423,6 @@ body {
   justify-self: start;
   align-self: center;
   align-content: start;
-
-  margin-left: 30px;
 }
 
 .orderDescr .orderID {
@@ -482,7 +479,6 @@ body {
   width: 195px;
   height: 56px;
   margin-top: 30px;
-  margin-right: 30px;
 
   background: #F9FAFE;
   box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.25);
@@ -515,8 +511,6 @@ body {
 .customer {
   display: grid;
   grid-template-rows: auto 239px;
-
-  margin-left: 30px;
   
   background: #FFFFFF;
   border-radius: 18px;
@@ -641,8 +635,6 @@ body {
   grid-template-rows: 24% repeat(4, 65px) auto;
 
   margin-top: 36px;
-  margin-bottom: 60px;
-  margin-left: 30px;
 
   background: #FFFFFF;
   border-radius: 18px;
@@ -851,8 +843,6 @@ body {
   grid-template-rows: 15% 17px 100px 100px 100px;
   grid-template-columns: 15% 40% 13% 11% 11% 10%;
   align-items: center;
-  margin-left: 34px;
-  margin-right: 30px;
   
   background: #FFFFFF;
   border-radius: 18px;
@@ -1163,9 +1153,6 @@ body {
   grid-template-columns: repeat(3, 1fr);
 
   margin-top: 25px;
-  margin-bottom: 60px;
-  margin-left: 34px;
-  margin-right: 30px;
   
   background: #FFFFFF;
   border-radius: 18px;
@@ -1235,8 +1222,6 @@ body {
 }
 
 .delivery__person_name {
-  font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 600;
   font-size: 17px;
   line-height: 23px;
@@ -1245,8 +1230,6 @@ body {
 }
 
 .delivery__person_rating {
-  font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -1297,7 +1280,6 @@ body {
 }
 
 .delivery__phone_name {
-  font-family: 'Open Sans';
   font-weight: 600;
   font-size: 17px;
   line-height: 23px;
@@ -1306,7 +1288,6 @@ body {
 }
 
 .delivery__phone_number {
-  font-family: 'Open Sans';
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -1356,7 +1337,6 @@ body {
 }
 
 .delivery__time_name {
-  font-family: 'Open Sans';
   font-weight: 600;
   font-size: 17px;
   line-height: 23px;
@@ -1365,7 +1345,6 @@ body {
 }
 
 .delivery__time_time {
-  font-family: 'Open Sans';
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
