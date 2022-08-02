@@ -17,6 +17,7 @@ body {
   margin: 0;
 
   font-family: 'Poppins';
+  font-style: normal;
   font-size: 22px;
   background-color: #F9F9F9;
 }
@@ -150,8 +151,6 @@ body {
   height: 496px;
   margin-top: 15px;
   
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
@@ -217,8 +216,6 @@ body {
   margin: 0;
   margin-top: 32px;
 
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -252,8 +249,6 @@ body {
   margin: 0;
   margin-left: 10px;
   
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
@@ -287,7 +282,6 @@ body {
   background: #F9F9F9;
   
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
@@ -336,8 +330,6 @@ body {
 
   background: #4D64E1;
 
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 20px;
@@ -358,8 +350,6 @@ body {
 
   background: #9956F4;
 
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 20px;
@@ -380,8 +370,6 @@ body {
 
   background: #C4C4C4;
 
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 20px;
@@ -404,7 +392,6 @@ body {
   border-radius: 8px;
 
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
@@ -448,8 +435,6 @@ body {
 
   text-decoration: none;
 
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
@@ -464,8 +449,6 @@ body {
 
   text-decoration: none;
 
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
@@ -481,8 +464,6 @@ body {
 
   text-decoration: none;
 
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
@@ -522,7 +503,6 @@ body {
   margin: 0;
 
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -562,8 +542,6 @@ body {
 .custumer__name {
   padding-top: 10px;
 
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
@@ -576,8 +554,6 @@ body {
   
   padding-top: 5px;
   
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -605,9 +581,6 @@ body {
 
 .customer__order-notes p {
   margin: 0;
-
-  font-family: 'Poppins';
-  font-style: normal;
 
   color: #FFFFFF;
 }
@@ -654,8 +627,6 @@ body {
 .customer__address {
   justify-self: start;
 
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -681,8 +652,6 @@ body {
   margin-top: 47px;
   margin-left: 7.3%;
   
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -719,8 +688,6 @@ body {
 }
 
 .orderNotes__statusText-4 {
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
@@ -731,8 +698,6 @@ body {
 .orderNotes__statusDate-4 {
   margin-top: 6px;
   
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -769,8 +734,6 @@ body {
 }
 
 .orderNotes__statusText-3 {
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
@@ -781,8 +744,6 @@ body {
 .orderNotes__statusDate-3 {
   margin-top: 6px;
   
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -819,8 +780,6 @@ body {
 }
 
 .orderNotes__statusText-2 {
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
@@ -831,8 +790,6 @@ body {
 .orderNotes__statusDate-2 {
   margin-top: 6px;
   
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -864,8 +821,6 @@ body {
 }
 
 .orderNotes__statusText-start {
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
@@ -876,8 +831,6 @@ body {
 .orderNotes__statusDate-start {
   margin-top: 6px;
   
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -905,7 +858,6 @@ body {
   border-radius: 18px;
 
   font-family: 'Red Hat Text';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -977,7 +929,6 @@ body {
   padding-bottom: 9px;
 
   font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 15px;
@@ -988,7 +939,6 @@ body {
 .foodMenu__item_name_1 { 
   padding-bottom: 10px;
   
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -1000,8 +950,6 @@ body {
   column-gap: 3px;
   align-items: center;
 
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 15px;
@@ -1064,7 +1012,6 @@ body {
   padding-bottom: 9px;
 
   font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 15px;
@@ -1088,7 +1035,6 @@ body {
   align-items: center;
 
   font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 15px;
@@ -1151,7 +1097,6 @@ body {
   padding-bottom: 9px;
 
   font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 15px;
@@ -1175,7 +1120,6 @@ body {
   align-items: center;
 
   font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 15px;
@@ -1354,7 +1298,6 @@ body {
 
 .delivery__phone_name {
   font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 600;
   font-size: 17px;
   line-height: 23px;
@@ -1364,7 +1307,6 @@ body {
 
 .delivery__phone_number {
   font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -1415,7 +1357,6 @@ body {
 
 .delivery__time_name {
   font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 600;
   font-size: 17px;
   line-height: 23px;
@@ -1425,7 +1366,6 @@ body {
 
 .delivery__time_time {
   font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
