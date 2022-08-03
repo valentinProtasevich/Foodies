@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
  
-.hidden {
-  display: none;
-}
-
 body {
   display: grid;
   grid-template-areas:
@@ -26,8 +22,6 @@ body {
   font-size: 22px;
   background-color: #F9F9F9;
 }
-
-
 
 .nav {
   grid-area: nav;
@@ -125,6 +119,8 @@ body {
 }
 
 .hamburger-menu {
+  display: none;
+  
   height: 15px;
 
   margin-top: 11px;
@@ -134,7 +130,6 @@ body {
 
 .hamburger-menu:hover {
   cursor: pointer;
-  box-shadow: 1px 1px 2px gray;
 }
 
 .nav__main-block {
@@ -1360,31 +1355,26 @@ body {
     grid-template-columns: 5% 25% 70%;
   }
 
+  .nav {
+    z-index: 1;  
+  }
+
+  .openedNav {
+    grid-template-rows: 30px 570px 180px;
+    width: 270px;
+    height: 790px;
+    border: 1px solid gray;
+    background: #F9F9F9;
+  }
+
   .nav__top-block {
     margin: 0;
   }
 
-  .logo{
-    display: none;
-  }
-
-  .company-name {
-    display: none;
-  }
-
   .hamburger-menu {
-    margin: 0;
-    padding-left: 10px;
+    display: block;
   }
-
-  .nav__main-block {
-    display: none;
-  }
-
-  .addMenus {
-    display: none;
-  }
-
+ 
   .header {
     grid-template-columns: 33% 33% 33%;
   }
@@ -1403,6 +1393,11 @@ body {
   .customer {
     border-radius: 0px;
   }
+
+  .hidden {
+    display: none;
+    background: #FFFFFF;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1420,8 +1415,13 @@ body {
     grid-template-columns: 30px 95%;
   }
 
-  .hamburger-menu {
-    margin-top: 30px;
+  .openedNav {
+    grid-template-rows: 60px 570px 180px;
+    height: 820px;
+  }
+
+  .nav__top-block {
+    margin-top: 20px;
   }
 
   .header {
